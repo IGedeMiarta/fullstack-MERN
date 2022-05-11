@@ -1,10 +1,10 @@
-GET http://localhost:3000/products
+GET http://localhost:8000/products
 
 ###
-GET http://localhost:3000/products/1
+GET http://localhost:8000/products/1
 
 ###
-POST http://localhost:3000/products
+POST http://localhost:8000/products
 Content-Type: application/json
 
 {
@@ -14,7 +14,7 @@ Content-Type: application/json
 
 ###
 
-PATCH  http://localhost:3000/products/1
+PATCH  http://localhost:8000/products/1
 Content-Type: application/json
 
 {
@@ -24,7 +24,7 @@ Content-Type: application/json
 
 ###
 
-DELETE   http://localhost:3000/products/1
+DELETE   http://localhost:8000/products/1
 Content-Type: application/json
 
 {
