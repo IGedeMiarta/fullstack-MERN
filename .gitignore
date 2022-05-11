@@ -1,0 +1,2 @@
+# ignore modules that are not in the list
+node_modules/ 
